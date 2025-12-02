@@ -154,3 +154,37 @@
 .hidden {
     display: none;
 }
+
+.load-more-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.load-more {
+    border-radius: 8px;
+    padding: 8px 16px;
+    min-width: 120px;
+    height: 40px;
+    border: none;
+    background-color: #4e75ff;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 250ms ease, transform 150ms ease;
+}
+
+.load-more:hover {
+    background-color: #6c8cff;
+    transform: translateY(-1px);
+}
+
+.load-more:active {
+    transform: translateY(0);
+}
+
+.load-more.hidden {
+    display: none;
+}
